@@ -14,5 +14,5 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-https://github.com/fernanda-freitas/animated-menu/assets/33285862/9744e206-3880-4b2d-a82b-d933ae6629ca
 
+![Screen_Recording_2023-07-31_at_18_08_21_AdobeExpress](https://github.com/fernanda-freitas/animated-menu/assets/33285862/8a03db94-471a-4f9a-9d61-b2381ce9b9b1)
