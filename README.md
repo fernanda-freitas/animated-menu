@@ -10,4 +10,6 @@ yarn dev
 pnpm dev
 ```
 
+<img src="https://github.com/fernanda-freitas/animated-menu/assets/33285862/231734b1-92d0-4c5a-92aa-d19b31356f7f" alt="Image" width="700">
+
 ![Screen_Recording_2023-07-31_at_18_08_21_AdobeExpress](https://github.com/fernanda-freitas/animated-menu/assets/33285862/231734b1-92d0-4c5a-92aa-d19b31356f7f)
