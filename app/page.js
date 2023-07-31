@@ -50,7 +50,7 @@ export default function Home() {
       y: 100,
       opacity: 0,
       transition: {
-        duration: 1, 
+        duration: 0.8, 
         ease: [0.76, 0, 0.24, 1], 
         delay: i * 0.05,
       }
@@ -83,8 +83,8 @@ export default function Home() {
             animate="enter" 
             exit="exit" 
             className="bg-black">
-            <div className="flex flex-col p-12 h-full">
-              <div onClick={handleClick} className="flex flex-col ml-auto gap-y-1.5 hover:cursor-pointer p-2">
+            <div className="relative flex flex-col p-12 h-full">
+              <div onClick={handleClick} className="relative flex flex-col ml-auto gap-y-1.5 hover:cursor-pointer p-2 z-10">
                 <motion.span 
                   initial={{transform: "rotate(0deg)"}} 
                   animate={{transform: "rotate(45deg) translateY(5px)"}} 
@@ -96,9 +96,9 @@ export default function Home() {
                   className="w-7 h-0.5 bg-white">
                 </motion.span>
               </div>
-              <ul className="m-auto text-center">
+              <ul className="absolute mt-44 inset-0 text-center z-0">
                   {items.map((item, i) => (
-                    <li key={`l_${i}`} className="hover:cursor-pointer overflow-hidden">
+                    <li key={`l_${i}`} className="hover:cursor-pointer overflow-hidden pb-4">
                       <motion.span
                         custom={i} 
                         variants={itemAnimation} 
@@ -106,12 +106,12 @@ export default function Home() {
                         animate="enter" 
                         exit="exit"
                         key={i} 
-                        className="flex flex-col text-6xl leading-relaxed font-extralight text-white">
+                        className="flex flex-col uppercase text-6xl leading-relaxed font-extralight text-white">
                         {item}
                       </motion.span>
                     </li>
                   ))}
-              </ul>   
+              </ul> 
             </div>
           </motion.div>
         )}
