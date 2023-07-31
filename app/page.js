@@ -26,7 +26,7 @@ export default function Home() {
     exit: {
       height: 0,
       transition: {
-        duration: 1, 
+        duration: 1.2, 
         ease: [0.76, 0, 0.24, 1],
       }
     },
@@ -41,7 +41,7 @@ export default function Home() {
       y: 0,
       opacity: 1,
       transition: {
-        duration: 1, 
+        duration: 1.3, 
         ease: [0.76, 0, 0.24, 1], 
         delay: i * 0.03,
       }
@@ -50,9 +50,9 @@ export default function Home() {
       y: 100,
       opacity: 0,
       transition: {
-        duration: .3, 
+        duration: 1, 
         ease: [0.76, 0, 0.24, 1], 
-        delay: i * 0.03,
+        delay: i * 0.05,
       }
     })
   }
@@ -97,19 +97,20 @@ export default function Home() {
                 </motion.span>
               </div>
               <ul className="m-auto text-center">
-                <li className="flex flex-col text-6xl leading-relaxed font-extralight text-white hover:cursor-pointer overflow-hidden">
                   {items.map((item, i) => (
-                    <motion.span
-                      custom={i} 
-                      variants={itemAnimation} 
-                      initial="initial" 
-                      animate="enter" 
-                      exit="exit"
-                      key={i} >
-                      {item}
-                    </motion.span>
+                    <li key={`l_${i}`} className="hover:cursor-pointer overflow-hidden">
+                      <motion.span
+                        custom={i} 
+                        variants={itemAnimation} 
+                        initial="initial" 
+                        animate="enter" 
+                        exit="exit"
+                        key={i} 
+                        className="flex flex-col text-6xl leading-relaxed font-extralight text-white">
+                        {item}
+                      </motion.span>
+                    </li>
                   ))}
-                </li>
               </ul>   
             </div>
           </motion.div>
