@@ -10,5 +10,4 @@ yarn dev
 pnpm dev
 ```
 
-<img src="https://github.com/fernanda-freitas/animated-menu/assets/33285862/231734b1-92d0-4c5a-92aa-d19b31356f7f" alt="Image" width="900">
-
+<img src="https://github.com/fernanda-freitas/animated-menu/assets/33285862/4ce60a9f-8884-4b52-afd3-95dd25ece8a0" alt="Image" width="850">
