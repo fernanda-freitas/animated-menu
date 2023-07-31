@@ -1,6 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
+## Animated menu
 
 First, run the development server:
 
@@ -12,7 +10,4 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-
-![Screen_Recording_2023-07-31_at_18_08_21_AdobeExpress](https://github.com/fernanda-freitas/animated-menu/assets/33285862/8a03db94-471a-4f9a-9d61-b2381ce9b9b1)
+![Screen_Recording_2023-07-31_at_18_08_21_AdobeExpress](https://github.com/fernanda-freitas/animated-menu/assets/33285862/231734b1-92d0-4c5a-92aa-d19b31356f7f)
